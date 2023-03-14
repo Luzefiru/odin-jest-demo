@@ -4,7 +4,8 @@
   "description": "A repository to test out and document the different functionalities of the Jest Test Suite.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",

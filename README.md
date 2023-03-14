@@ -8,11 +8,12 @@ A repository to test out and document the different functionalities of the Jest 
 npm install --save-dev jest
 ```
 
-Then we setup our `npm test` script in `package.json`:
+Then we setup our `npm test` and `npm watch` script in `package.json`:
 
 ```JavaScript
 "scripts": {
-"test": "jest"
+  "test": "jest",
+  "watch": "jest --watchAll"
 },
 ```
 
