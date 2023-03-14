@@ -55,3 +55,18 @@ test('object assignment', () => {
 6. `.toMatch(/regExp/)` matches a String to a `regExp`.
 
 7. `expect(arr).toContain(value)` checks if the `arr` contains `value`.
+
+## Using Babel Transpiler to Use ES6 `import`/`export` Statements
+
+- We first install the [[Node Package Manager|npm]] package.
+
+```bash
+npm i --save-dev @babel/preset-env
+```
+
+- We then create a `.babelrc` file with the following code:
+
+```Javascript
+{ "presets": ["@babel/preset-env"] }
+```
+
