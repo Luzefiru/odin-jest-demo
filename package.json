@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Luzefiru/jest-demo#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
     "jest": "^29.5.0"
   }
 }
