@@ -1,6 +1,6 @@
-# jest-demo
+# odin-jest-demo
 
-A repository to test out and document the different functionalities of the Jest Test Suite.
+A repository to test out and document the different functionalities of the Jest Test Suite and practice Test Driven Development (TDD) according to [The Odin Project Testing Practice Project](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice).
 
 ## Installing
 
