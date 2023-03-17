@@ -17,6 +17,18 @@ Then we setup our `npm test` and `npm watch` script in `package.json`:
 },
 ```
 
+By default, we need to use CommonJS Export Syntax:
+
+```JavaScript
+// inside sum.js
+module.exports = { sum };
+
+// inside sum.test.js
+const { sum } = require(./sum)
+```
+
+However, we can use ES6 `import/export` syntax via a transpiler like Babel.
+
 ## Testing: Basics
 
 - We use the `expect(value)` function then chain it with a "matcher" method in order to assert something about a value.
