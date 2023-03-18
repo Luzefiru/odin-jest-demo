@@ -70,7 +70,7 @@ test('object assignment', () => {
 
 ## Using Babel Transpiler to Use ES6 `import`/`export` Statements
 
-- We first install the [[Node Package Manager|npm]] package.
+- We first install the npm package.
 
 ```bash
 npm i --save-dev @babel/preset-env
