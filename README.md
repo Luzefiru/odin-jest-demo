@@ -83,7 +83,7 @@ npm i --save-dev @babel/preset-env
 ```
 
 
-## Repeating Setup for Mocking]
+## Repeating Setup for Mocking
 
 > We can use certain functions to execute **before ALL tests** or **before EACH test**.
 > These all accept a Callback Function, the function to execute.
